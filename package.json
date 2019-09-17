@@ -10,5 +10,7 @@
   "devDependencies": {
     "jest": "^24.9.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "random-words-es": "^1.1.1"
+  }
 }
