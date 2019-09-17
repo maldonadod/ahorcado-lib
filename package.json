@@ -1,0 +1,16 @@
+{
+  "name": "ahorcado-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Daniel Maldonado <emaldonado.daniel@gmail.com>",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "random-spanish-words": "^2.0.0"
+  }
+}
