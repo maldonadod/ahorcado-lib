@@ -1,8 +1,7 @@
-const randomWords = require("random-spanish-words");
 const removeTildes = require("./removeTildes");
 
 function getRandomSpanishWord() {
-  return removeTildes(randomWords())
+  return removeTildes("")
 }
 
 module.exports = getRandomSpanishWord;
