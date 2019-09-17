@@ -6,7 +6,7 @@ function testGameOver() {
 
   InitGame({
     secretWord: "guitarra",
-    shouldGameOverWhenFailsEquals: 3
+    shouldGameOverWhenFailsEquals: 5
   }).verify((presenter, view) => {
     
     presenter.dispatchInputLetter("Q")
